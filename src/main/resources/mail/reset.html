@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+   <style type="text/css">
+
+   </style>
+</head>
+<body>
+
+<div class="greeting">
+    <p th:text="#{greeting}">Good day</p>
+</div>
+
+<div class="content">
+<p th:text="#{content}">Your request for API key reset was successful. Kindly find new details below</p>
+
+    <ul>
+        <li><span th:text="#{iv_key}">IV Key</span>: <strong><span th:text="${ivKey}"></span> </strong> </li>
+        <li><span th:text="#{secret_key}">Secret Key</span>: <strong><span th:text="${secretKey}"></span> </strong> </li>
+    </ul>
+</div>
+
+<div class="signature">
+
+    <p th:text="#{signature}">NIBSS Team</p>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,1044 @@
+2018-07-24 09:40:09 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 09:40:09 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 09:40:09 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 09:40:09 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 09:40:09 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 09:40:09 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@cad498c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2accdbb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b62d79, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6631f5ca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ace1ed4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1613674b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@649bec2e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@693fe6c9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@34f5090e]
+2018-07-24 09:40:09 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 09:40:09 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 09:40:09 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 09:40:09 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 09:40:09 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 09:40:09 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13e344d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ffaf86, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6574a52c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c1a5b54, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1c7696c6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@60099951, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@20140db9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55a147cc]
+2018-07-24 09:40:11 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:48] Starting AgentControllerTest on NexusAxis with PID 11460 (started by Nexus Axis in C:\Users\Nexus Axis\Documents\NetBeansProjects\agencybankingservice)
+2018-07-24 09:40:11 DEBUG [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:51] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-07-24 09:40:11 INFO [main] c.n.a.c.AgentControllerTest
+                [SpringApplication.java:597] The following profiles are active: dev
+2018-07-24 09:40:13 INFO [main] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:583] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7a55af6b: startup date [Tue Jul 24 09:40:13 WAT 2018]; root of context hierarchy
+2018-07-24 09:40:15 INFO [background-preinit] o.h.v.i.u.Version
+                [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-07-24 09:40:34 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7a55af6b: startup date [Tue Jul 24 09:40:13 WAT 2018]; root of context hierarchy
+2018-07-24 09:40:35 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/create],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.createAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.AgentDto,org.springframework.validation.BindingResult)
+2018-07-24 09:40:35 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/update],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.updateAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.AgentDto,org.springframework.validation.BindingResult)
+2018-07-24 09:40:35 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 09:40:35 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 09:40:35 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 09:40:35 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 09:40:35 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 09:40:35 WARN [main] o.s.b.a.t.AbstractTemplateResolverConfiguration
+                [AbstractTemplateResolverConfiguration.java:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-07-24 09:40:43 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 09:40:43 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 09:40:43 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 26 ms
+2018-07-24 09:40:43 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:57] Started AgentControllerTest in 34.047 seconds (JVM running for 52.64)
+2018-07-24 09:40:43 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 09:40:43 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 09:40:43 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 2 ms
+2018-07-24 09:40:45 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 09:40:45 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 09:40:45 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 09:40:45 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 09:40:46 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 09:40:46 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 09:40:46 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 09:40:46 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 09:40:46 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 09:40:46 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 09:40:46 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 09:40:46 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 09:40:46 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 09:40:46 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 5 ms
+2018-07-24 09:40:46 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 09:40:46 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 09:40:46 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 09:40:46 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 09:40:48 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 09:40:48 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 09:40:48 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 8 ms
+2018-07-24 09:40:48 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 09:40:48 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 09:40:48 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 09:40:48 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 09:40:49 INFO [Thread-3] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:984] Closing org.springframework.web.context.support.GenericWebApplicationContext@7a55af6b: startup date [Tue Jul 24 09:40:13 WAT 2018]; root of context hierarchy
+2018-07-24 12:14:46 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 12:14:47 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 12:14:47 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 12:14:47 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 12:14:47 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 12:14:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51dcb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cad498c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6454ec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2accdbb5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b62d79, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ace1ed4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e096385]
+2018-07-24 12:14:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 12:14:48 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 12:14:48 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 12:14:48 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 12:14:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 12:14:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2794eab6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6340e5f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45099dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13e344d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ffaf86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c7696c6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60099951, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@20140db9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@368247b9]
+2018-07-24 12:14:50 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:48] Starting AgentControllerTest on NexusAxis with PID 16424 (started by Nexus Axis in C:\Users\Nexus Axis\Documents\NetBeansProjects\agencybankingservice)
+2018-07-24 12:14:50 DEBUG [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:51] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-07-24 12:14:50 INFO [main] c.n.a.c.AgentControllerTest
+                [SpringApplication.java:597] The following profiles are active: dev
+2018-07-24 12:14:52 INFO [background-preinit] o.h.v.i.u.Version
+                [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-07-24 12:14:52 INFO [main] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:583] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:14:52 WAT 2018]; root of context hierarchy
+2018-07-24 12:14:58 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:14:52 WAT 2018]; root of context hierarchy
+2018-07-24 12:14:58 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/create],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.createAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.AgentDto,org.springframework.validation.BindingResult)
+2018-07-24 12:14:58 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/update],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.updateAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.UpdateAgentDto,org.springframework.validation.BindingResult)
+2018-07-24 12:14:58 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 12:14:58 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 12:14:59 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:14:59 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:14:59 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:14:59 WARN [main] o.s.b.a.t.AbstractTemplateResolverConfiguration
+                [AbstractTemplateResolverConfiguration.java:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-07-24 12:15:03 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:15:03 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:15:03 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 28 ms
+2018-07-24 12:15:04 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:57] Started AgentControllerTest in 15.353 seconds (JVM running for 20.629)
+2018-07-24 12:15:04 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:15:04 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:15:04 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 12:15:05 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:15:05 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:15:05 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:15:05 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:15:05 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:44] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:15:05 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:46] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:15:06 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:15:06 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:15:06 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:44] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:46] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:15:06 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:15:06 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:15:06 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 0 ms
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:44] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:15:06 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:46] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:15:07 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:15:07 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:15:07 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 12:15:08 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:15:08 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:15:08 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:15:08 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:15:08 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:44] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:15:08 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:46] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:15:08 INFO [Thread-3] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:984] Closing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:14:52 WAT 2018]; root of context hierarchy
+2018-07-24 12:19:13 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 12:19:13 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 12:19:13 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 12:19:14 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 12:19:14 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 12:19:14 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51dcb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cad498c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6454ec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2accdbb5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b62d79, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ace1ed4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e096385]
+2018-07-24 12:19:14 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 12:19:14 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 12:19:14 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 12:19:14 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 12:19:14 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 12:19:14 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2794eab6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6340e5f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45099dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13e344d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ffaf86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c7696c6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60099951, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@20140db9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@368247b9]
+2018-07-24 12:19:14 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:48] Starting AgentControllerTest on NexusAxis with PID 17636 (started by Nexus Axis in C:\Users\Nexus Axis\Documents\NetBeansProjects\agencybankingservice)
+2018-07-24 12:19:14 DEBUG [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:51] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-07-24 12:19:14 INFO [main] c.n.a.c.AgentControllerTest
+                [SpringApplication.java:597] The following profiles are active: dev
+2018-07-24 12:19:15 INFO [main] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:583] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:19:15 WAT 2018]; root of context hierarchy
+2018-07-24 12:19:15 INFO [background-preinit] o.h.v.i.u.Version
+                [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-07-24 12:19:18 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:19:15 WAT 2018]; root of context hierarchy
+2018-07-24 12:19:18 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/update],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.updateAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.UpdateAgentDto,org.springframework.validation.BindingResult)
+2018-07-24 12:19:18 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/create],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.createAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.AgentDto,org.springframework.validation.BindingResult)
+2018-07-24 12:19:18 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 12:19:18 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 12:19:18 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:19:18 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:19:18 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:19:18 WARN [main] o.s.b.a.t.AbstractTemplateResolverConfiguration
+                [AbstractTemplateResolverConfiguration.java:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-07-24 12:19:19 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:19:19 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:19:19 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 60 ms
+2018-07-24 12:19:19 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:57] Started AgentControllerTest in 5.549 seconds (JVM running for 7.537)
+2018-07-24 12:19:19 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:19:19 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:19:19 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 12:19:20 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:19:20 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:19:20 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:19:20 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:19:20 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:19:20 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:19:21 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:19:21 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:19:22 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:19:22 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 12:19:22 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:19:22 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:19:22 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 7 ms
+2018-07-24 12:19:22 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:19:22 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:19:22 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:19:22 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:19:22 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:19:22 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:19:22 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:19:22 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:19:22 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:19:22 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:100] Agent user details successfully created
+2018-07-24 12:19:22 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:115] Agent successfully created
+2018-07-24 12:19:22 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:19:22 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:19:22 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 12:19:22 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:19:22 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:19:22 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:19:22 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:19:22 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:19:22 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:19:22 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:19:22 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:19:22 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:19:22 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:181] Invalid password provided: Something went wrong when trying to validate user's password, please try again
+2018-07-24 12:19:23 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:19:23 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:19:23 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 2 ms
+2018-07-24 12:19:23 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:19:23 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:19:23 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:19:23 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:19:23 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:19:23 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:19:23 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:19:23 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:19:23 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:19:23 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 12:19:23 INFO [Thread-3] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:984] Closing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:19:15 WAT 2018]; root of context hierarchy
+2018-07-24 12:20:47 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 12:20:47 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 12:20:47 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 12:20:48 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 12:20:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 12:20:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51dcb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cad498c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6454ec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2accdbb5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b62d79, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ace1ed4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e096385]
+2018-07-24 12:20:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 12:20:48 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 12:20:48 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 12:20:48 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 12:20:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 12:20:48 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2794eab6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6340e5f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45099dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13e344d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ffaf86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c7696c6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60099951, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@20140db9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@368247b9]
+2018-07-24 12:20:49 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:48] Starting AgentControllerTest on NexusAxis with PID 14224 (started by Nexus Axis in C:\Users\Nexus Axis\Documents\NetBeansProjects\agencybankingservice)
+2018-07-24 12:20:49 DEBUG [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:51] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-07-24 12:20:49 INFO [main] c.n.a.c.AgentControllerTest
+                [SpringApplication.java:597] The following profiles are active: dev
+2018-07-24 12:20:49 INFO [main] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:583] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:20:49 WAT 2018]; root of context hierarchy
+2018-07-24 12:20:49 INFO [background-preinit] o.h.v.i.u.Version
+                [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-07-24 12:20:53 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:20:49 WAT 2018]; root of context hierarchy
+2018-07-24 12:20:53 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/create],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.createAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.AgentDto,org.springframework.validation.BindingResult)
+2018-07-24 12:20:53 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/update],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.updateAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.UpdateAgentDto,org.springframework.validation.BindingResult)
+2018-07-24 12:20:53 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 12:20:53 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 12:20:53 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:20:53 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:20:53 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:20:53 WARN [main] o.s.b.a.t.AbstractTemplateResolverConfiguration
+                [AbstractTemplateResolverConfiguration.java:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-07-24 12:20:54 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:20:54 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:20:54 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 24 ms
+2018-07-24 12:20:54 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:57] Started AgentControllerTest in 6.337 seconds (JVM running for 8.909)
+2018-07-24 12:20:55 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:20:55 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:20:55 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 12:20:55 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:20:55 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:20:55 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:20:55 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:20:55 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:20:55 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:20:57 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:20:57 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:20:57 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:20:57 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 12:20:57 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:20:57 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:20:57 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 12:20:57 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:20:57 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:20:57 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:20:57 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:20:57 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:20:57 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:20:57 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:20:57 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:20:57 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:20:57 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:100] Agent user details successfully created
+2018-07-24 12:20:58 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:115] Agent successfully created
+2018-07-24 12:20:58 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:20:58 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:20:58 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 12:20:58 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:20:58 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:20:58 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:20:58 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:20:58 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:20:58 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:20:58 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 12:20:58 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:20:58 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:20:58 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:20:58 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:20:58 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:20:58 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:20:58 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:20:58 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:20:58 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:20:58 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 12:20:58 INFO [Thread-3] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:984] Closing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:20:49 WAT 2018]; root of context hierarchy
+2018-07-24 12:49:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 12:49:28 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 12:49:28 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 12:49:28 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 12:49:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 12:49:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51dcb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cad498c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6454ec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2accdbb5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b62d79, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ace1ed4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e096385]
+2018-07-24 12:49:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 12:49:28 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 12:49:28 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 12:49:28 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 12:49:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 12:49:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2794eab6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6340e5f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45099dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13e344d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ffaf86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c7696c6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60099951, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@20140db9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@368247b9]
+2018-07-24 12:49:29 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:48] Starting AgentControllerTest on NexusAxis with PID 18960 (started by Nexus Axis in C:\Users\Nexus Axis\Documents\NetBeansProjects\agencybankingservice)
+2018-07-24 12:49:29 DEBUG [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:51] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-07-24 12:49:29 INFO [main] c.n.a.c.AgentControllerTest
+                [SpringApplication.java:597] The following profiles are active: dev
+2018-07-24 12:49:30 INFO [background-preinit] o.h.v.i.u.Version
+                [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-07-24 12:49:30 INFO [main] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:583] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:49:30 WAT 2018]; root of context hierarchy
+2018-07-24 12:49:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:49:30 WAT 2018]; root of context hierarchy
+2018-07-24 12:49:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/update],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.updateAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.UpdateAgentDto,org.springframework.validation.BindingResult)
+2018-07-24 12:49:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/create],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.createAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.AgentDto,org.springframework.validation.BindingResult)
+2018-07-24 12:49:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 12:49:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 12:49:34 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:49:34 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:49:34 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 12:49:34 WARN [main] o.s.b.a.t.AbstractTemplateResolverConfiguration
+                [AbstractTemplateResolverConfiguration.java:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-07-24 12:49:35 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:49:35 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:49:35 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 36 ms
+2018-07-24 12:49:35 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:57] Started AgentControllerTest in 6.805 seconds (JVM running for 8.834)
+2018-07-24 12:49:36 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:49:36 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:49:36 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 58 ms
+2018-07-24 12:49:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:49:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:49:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:49:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:49:36 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:49:36 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:49:37 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:49:37 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:49:38 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:49:38 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 12:49:38 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:49:38 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:49:38 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:49:38 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:49:38 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:49:38 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:49:38 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:49:38 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:49:38 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:100] Agent user details successfully created
+2018-07-24 12:49:38 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:115] Agent successfully created
+2018-07-24 12:49:38 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:49:38 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:49:38 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:49:38 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 12:49:38 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 12:49:38 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 12:49:38 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 12:49:38 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 12:49:38 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 12:49:38 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 12:49:38 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 12:49:38 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 12:49:38 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 12:49:38 INFO [Thread-3] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:984] Closing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 12:49:30 WAT 2018]; root of context hierarchy
+2018-07-24 13:03:20 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 13:03:20 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 13:03:20 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 13:03:20 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 13:03:20 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 13:03:20 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51dcb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cad498c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6454ec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2accdbb5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b62d79, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ace1ed4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e096385]
+2018-07-24 13:03:20 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 13:03:20 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 13:03:20 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 13:03:21 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 13:03:21 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 13:03:21 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2794eab6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6340e5f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45099dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13e344d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ffaf86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c7696c6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60099951, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@20140db9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@368247b9]
+2018-07-24 13:03:22 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:48] Starting AgentControllerTest on NexusAxis with PID 13724 (started by Nexus Axis in C:\Users\Nexus Axis\Documents\NetBeansProjects\agencybankingservice)
+2018-07-24 13:03:22 DEBUG [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:51] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-07-24 13:03:22 INFO [main] c.n.a.c.AgentControllerTest
+                [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-07-24 13:03:22 INFO [main] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:583] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@74bf1791: startup date [Tue Jul 24 13:03:22 WAT 2018]; root of context hierarchy
+2018-07-24 13:03:22 INFO [background-preinit] o.h.v.i.u.Version
+                [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-07-24 13:03:26 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@74bf1791: startup date [Tue Jul 24 13:03:22 WAT 2018]; root of context hierarchy
+2018-07-24 13:03:26 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/create],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.createAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.AgentDto,org.springframework.validation.BindingResult)
+2018-07-24 13:03:26 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/update],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.updateAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.UpdateAgentDto,org.springframework.validation.BindingResult)
+2018-07-24 13:03:26 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 13:03:26 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 13:03:26 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 13:03:26 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 13:03:26 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 13:03:26 WARN [main] o.s.b.a.t.AbstractTemplateResolverConfiguration
+                [AbstractTemplateResolverConfiguration.java:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-07-24 13:03:27 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:03:27 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:03:27 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 52 ms
+2018-07-24 13:03:28 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:57] Started AgentControllerTest in 6.771 seconds (JVM running for 9.136)
+2018-07-24 13:03:28 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:03:28 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:03:28 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 6 ms
+2018-07-24 13:03:28 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 13:03:28 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 13:03:28 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 13:03:28 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 13:03:28 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 13:03:28 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 13:03:28 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 13:03:28 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 13:03:29 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 13:03:29 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 13:03:29 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:03:29 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:03:29 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 13:03:29 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 13:03:29 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 13:03:29 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 13:03:29 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 13:03:29 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 13:03:29 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 13:03:29 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 13:03:29 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 13:03:29 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 13:03:29 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:100] Agent user details successfully created
+2018-07-24 13:03:29 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:115] Agent successfully created
+2018-07-24 13:03:29 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:03:29 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:03:29 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 13:03:29 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 13:03:29 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 13:03:29 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 13:03:29 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 13:03:29 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:03:29 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:03:30 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 13:03:30 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 13:03:30 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 13:03:30 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 13:03:30 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 13:03:30 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 13:03:30 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 13:03:30 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 13:03:30 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 13:03:30 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 13:03:30 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 13:03:30 INFO [Thread-3] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:984] Closing org.springframework.web.context.support.GenericWebApplicationContext@74bf1791: startup date [Tue Jul 24 13:03:22 WAT 2018]; root of context hierarchy
+2018-07-24 13:16:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 13:16:28 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 13:16:28 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 13:16:28 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 13:16:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 13:16:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51dcb805, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66498326, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cad498c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e6454ec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2accdbb5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b62d79, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ace1ed4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1613674b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27ff5d15, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e096385]
+2018-07-24 13:16:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:307] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest], using SpringBootContextLoader
+2018-07-24 13:16:28 INFO [main] o.s.t.c.s.AbstractContextLoader
+                [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-07-24 13:16:28 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                [AnnotationConfigContextLoaderUtils.java:81] Could not detect default configuration classes for test class [com.nibss.agencybankingservice.controllers.AgentControllerTest]: AgentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-07-24 13:16:28 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper
+                [SpringBootTestContextBootstrapper.java:206] Found @SpringBootConfiguration com.nibss.agencybankingservice.AgencyBankingServiceApplication for test class com.nibss.agencybankingservice.controllers.AgentControllerTest
+2018-07-24 13:16:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-07-24 13:16:28 INFO [main] o.s.b.t.a.w.s.WebMvcTestContextBootstrapper
+                [AbstractTestContextBootstrapper.java:174] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2794eab6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6340e5f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45099dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13e344d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ffaf86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c7696c6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60099951, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@20140db9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@368247b9]
+2018-07-24 13:16:29 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:48] Starting AgentControllerTest on NexusAxis with PID 10216 (started by Nexus Axis in C:\Users\Nexus Axis\Documents\NetBeansProjects\agencybankingservice)
+2018-07-24 13:16:29 DEBUG [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:51] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-07-24 13:16:29 INFO [main] c.n.a.c.AgentControllerTest
+                [SpringApplication.java:597] The following profiles are active: dev
+2018-07-24 13:16:30 INFO [main] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:583] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 13:16:30 WAT 2018]; root of context hierarchy
+2018-07-24 13:16:30 INFO [background-preinit] o.h.v.i.u.Version
+                [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-07-24 13:16:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 13:16:30 WAT 2018]; root of context hierarchy
+2018-07-24 13:16:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/create],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.createAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.AgentDto,org.springframework.validation.BindingResult)
+2018-07-24 13:16:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/api/agents/update],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity com.nibss.agencybankingservice.controllers.AgentController.updateAgent(com.upl.nibss.bvn.model.AgentManager,com.upl.nibss.bvn.model.security.Institutions,com.nibss.agencybankingservice.dto.UpdateAgentDto,org.springframework.validation.BindingResult)
+2018-07-24 13:16:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-24 13:16:33 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-24 13:16:33 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 13:16:33 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 13:16:34 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping
+                [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-24 13:16:34 WARN [main] o.s.b.a.t.AbstractTemplateResolverConfiguration
+                [AbstractTemplateResolverConfiguration.java:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-07-24 13:16:35 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:16:35 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:16:35 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 35 ms
+2018-07-24 13:16:35 INFO [main] c.n.a.c.AgentControllerTest
+                [StartupInfoLogger.java:57] Started AgentControllerTest in 6.128 seconds (JVM running for 7.919)
+2018-07-24 13:16:35 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:16:35 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:16:35 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 4 ms
+2018-07-24 13:16:35 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 13:16:35 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 13:16:35 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 13:16:35 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 13:16:35 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 13:16:35 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 13:16:36 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 13:16:36 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 13:16:36 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 13:16:36 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 13:16:36 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:16:36 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:16:36 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 0 ms
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 13:16:36 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 13:16:36 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 13:16:36 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 13:16:36 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 13:16:36 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 13:16:36 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:100] Agent user details successfully created
+2018-07-24 13:16:36 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:115] Agent successfully created
+2018-07-24 13:16:36 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:16:36 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:16:36 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 13:16:36 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext
+                [MockServletContext.java:440] Initializing Spring FrameworkServlet ''
+2018-07-24 13:16:36 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:489] FrameworkServlet '': initialization started
+2018-07-24 13:16:36 INFO [main] o.s.t.w.s.TestDispatcherServlet
+                [FrameworkServlet.java:508] FrameworkServlet '': initialization completed in 3 ms
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:60] The encoded string is MDAwMDAwOTplanlJNGQ5NVlD
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:62] The decoded string 0000009:ejyI4d95YC
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:34] hashed string 000000920180724ejyI4d95YC
+2018-07-24 13:16:36 TRACE [main] c.n.a.u.FilterUtils
+                [FilterUtils.java:36] rehashed string 2af36b1486e72c996999b51e815aafa7a627896573bac4c16268f212321c074f7129a2026e51c3d06c9bcc2f2cbad952334a81b6513fac451d72033b3e2d77c7
+2018-07-24 13:16:36 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:136] The institution code being used is 0000009
+2018-07-24 13:16:36 TRACE [main] c.n.a.f.SecurityFilter
+                [SecurityFilter.java:137] The institution IV being used is vNQKwxUQ5IAMxUE2
+2018-07-24 13:16:37 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:49] request body before decryption: afa742d393c0f96f5958d92d228286b726242a69793f98275ad25f6cc1a887e6389f11d6e2c99ca080a580d6a1d626dce35392a56db5c80353557780b1505ab600680c83ea1ae39aa609f8bc548f38ae9fa130fad8c4488bf213e8a573fc1f02fcfc79254866dc477d7ae335b942c25e12967d7ba728ea8a8e7d7b80afb5d97a5752516452339cbe30938a84e7d1b3d26c1642bd6e5003401e737c406710dc687a4f2dc09b55a7fc648d331180512d85372d1e987aab12b72cfd0057412b801c5c5f9156f2312d657c634edb9c0790b6f50afbcbffa7aba01cebd432358af6db1303d6a04722fa2f7215180f0fadd03c7b1aaf0053a0c67b351ad381a6cdc2bf793add6f19fa2d79fc9ec76b2105066f72360bbafdda89759d379dea658056fbc66ac9ade9c0f3c9b65d78dc603cee89bc09aa31eabe571c241d4f67851b3aacb4d77c8cbe4049731752dd0f5c9d63276ac0faeb690e650fbd02379f57d3b5c3492f4d3f6027f6b0473a1c299dece447ac8745cede274bdc56e6fe01b994a98529a7be301523649fb5bf00f61943930f076a32d250c51f64018eb635d4a8fd325eb17a805a6f4a49c4c1b4e8cbbce0f15de8a70a46ca9206697f939d1b484e1b4224af2408359a844b3e9be6329a1ff13d9b77e060583d47c8368fd3336590673953be9f65bf4930a3f77590ebd84d7246013dfdacac92b067c39c4115411fb9
+2018-07-24 13:16:37 TRACE [main] c.n.a.w.CustomRequestWrapper
+                [CustomRequestWrapper.java:59] request body after decryption: {"additionalInfo1":"","additionalInfo2":"","bvn":"08023905077","city":"Oshodi","emailAddress":"00B2VZ@pagaagents.com","latitude":6.493078,"longitude":3.382097,"lga":"Oshodi/isolo","firstName":"Amoo","lastName":"Shittu","middleName":"","title":"Mrs","phoneList":["08023905077"],"servicesProvided":["CASH_IN","CASH_OUT","BVN_ENROLLMENT"],"username":"00B2VZ","streetNumber":"N/A","streetName":"9, Adebayo Street, Orile-Oshodi, Oshodi ","streetDescription":"N/A","ward":"Oshodi","password":"gE&DEA7ebZr6Fx"}
+2018-07-24 13:16:37 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:73] The request is AgentDto(additionalInfo1=, additionalInfo2=, bvn=08023905077, city=Oshodi, emailAddress=00B2VZ@pagaagents.com, latitude=6.493078, longitude=3.382097, lga=Oshodi/isolo, firstName=Amoo, lastName=Shittu, middleName=, title=Mrs, phoneList=[08023905077], servicesProvided=[CASH_IN, CASH_OUT, BVN_ENROLLMENT], username=00B2VZ, password=gE&DEA7ebZr6Fx, streetNumber=N/A, streetName=9, Adebayo Street, Orile-Oshodi, Oshodi , streetDescription=N/A, ward=Oshodi)
+2018-07-24 13:16:37 TRACE [main] c.n.a.c.AgentController
+                [AgentController.java:102] Unable to save user details for the agent because it already exists
+2018-07-24 13:16:37 INFO [Thread-3] o.s.w.c.s.GenericWebApplicationContext
+                [AbstractApplicationContext.java:984] Closing org.springframework.web.context.support.GenericWebApplicationContext@5c2375a9: startup date [Tue Jul 24 13:16:30 WAT 2018]; root of context hierarchy

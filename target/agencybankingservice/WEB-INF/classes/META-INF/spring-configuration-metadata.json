@@ -1,0 +1,40 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.nibss.agencybankingservice.configurations.ApplicationProperties",
+      "name": "agency.banking.app",
+      "type": "com.nibss.agencybankingservice.configurations.ApplicationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.nibss.agencybankingservice.configurations.ApplicationProperties",
+      "defaultValue": "AGENTMANAGERCODE",
+      "name": "agency.banking.app.agent-manager-code",
+      "description": "The key used in retrieving client identifier\n from the HttpServletRequest's header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nibss.agencybankingservice.configurations.ApplicationProperties",
+      "defaultValue": "AGENT",
+      "name": "agency.banking.app.agent-role",
+      "description": "Get the agent role",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nibss.agencybankingservice.configurations.ApplicationProperties",
+      "defaultValue": "sg6T0g6UYQNB4wSM5O7ujCN6i1e8KI0c",
+      "name": "agency.banking.app.encryption-salt",
+      "description": "Encryption Salt",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nibss.agencybankingservice.configurations.ApplicationProperties",
+      "defaultValue": 10,
+      "name": "agency.banking.app.max-transaction-report",
+      "description": "Maximum bulk transaction size",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
